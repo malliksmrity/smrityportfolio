@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smrity Mallik | Mechanical engineer, machine learning and simulation projects</title>
+  <meta name="description" content="Portfolio of Smrity Mallik, a mechanical engineer building machine-learning and simulation projects for engineering and energy systems. Projects, dance skating and art.">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="Smrity Mallik">
+  <meta property="og:description" content="Mechanical engineer building machine-learning and simulation projects for engineering and energy systems.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b1220'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%236fd6c9'%3ESM%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.replace('no-js','js');</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="bg" aria-hidden="true"><span class="glow g1"></span><span class="glow g2"></span></div>
+
+  <header class="nav-wrap">
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skating">Skating</a></li>
+        <li><a href="#art">Art</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="home" class="hero container" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <h1 id="hero-title" class="reveal">Smrity Mallik</h1>
+        <p class="lead reveal" style="--d:100ms">Mechanical engineer building machine-learning and simulation projects for engineering and energy systems</p>
+        <div class="actions reveal" style="--d:200ms">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+      <figure class="hero-photo reveal" style="--d:150ms">
+        <div class="float">
+          <img src="assets/img/hero.jpg" width="960" height="1280" alt="Portrait of Smrity Mallik standing in front of the Messe Berlin building" fetchpriority="high">
+        </div>
+      </figure>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container section" aria-labelledby="projects-title">
+      <div class="section-head reveal">
+        <h2 id="projects-title">Projects</h2>
+        <p>Selected work in machine learning and simulation.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="card project tilt reveal">
+          <div class="shot">
+            <span class="shot-label">Screenshot or recording</span>
+            <!-- To add a screenshot: save it as assets/projects/trustrul.jpg and uncomment the next line.
+            <img src="assets/projects/trustrul.jpg" alt="Screenshot of the TrustRUL demo" loading="lazy"> -->
+          </div>
+          <div class="body">
+            <p class="kicker">NASA C-MAPSS &middot; Jet engines</p>
+            <h3>TrustRUL</h3>
+            <p>Remaining useful life of jet engines. A GRU with Monte Carlo dropout, plus conformal prediction that raised interval coverage from about&nbsp;79&nbsp;% to about&nbsp;89&nbsp;%. Explained with SHAP, tracked in MLflow and packaged with Docker.</p>
+            <ul class="tags" aria-label="Tools used">
+              <li>GRU</li><li>Conformal prediction</li><li>SHAP</li><li>MLflow</li><li>Docker</li>
+            </ul>
+            <div class="actions">
+              <a class="btn primary" href="https://huggingface.co/spaces/malliksmrity/maintenance-sim-env" target="_blank" rel="noopener noreferrer">Live demo<span class="sr"> of TrustRUL (opens in a new tab)</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 5 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn ghost" href="https://github.com/malliksmrity/trustrul-dashboard" target="_blank" rel="noopener noreferrer">Code<span class="sr"> for TrustRUL (opens in a new tab)</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal" style="--d:80ms">
+          <div class="shot">
+            <span class="shot-label">Screenshot or recording</span>
+            <!-- To add a screenshot: save it as assets/projects/rice-straw-boiler.jpg and uncomment the next line.
+            <img src="assets/projects/rice-straw-boiler.jpg" alt="Screenshot of the rice straw boiler demo" loading="lazy"> -->
+          </div>
+          <div class="body">
+            <p class="kicker">Final-year project with Thermax</p>
+            <h3>Rice straw boiler</h3>
+            <p>A heat-loss efficiency model that gives 81.3&nbsp;% at the design point, matching the design workbook. Includes sensitivity analysis and Monte Carlo.</p>
+            <ul class="tags" aria-label="Tools used">
+              <li>Heat-loss method</li><li>Sensitivity analysis</li><li>Monte Carlo</li>
+            </ul>
+            <div class="actions">
+              <a class="btn primary" href="https://huggingface.co/spaces/malliksmrity/boiler-sim-env" target="_blank" rel="noopener noreferrer">Live demo<span class="sr"> of the rice straw boiler (opens in a new tab)</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 5 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn ghost" href="https://github.com/malliksmrity/Analysis-of-Rice-straw-Boiler" target="_blank" rel="noopener noreferrer">Code<span class="sr"> for the rice straw boiler (opens in a new tab)</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal">
+          <div class="shot">
+            <span class="shot-label">Screenshot or recording</span>
+            <!-- To add a screenshot: save it as assets/projects/redispatch.jpg and uncomment the next line.
+            <img src="assets/projects/redispatch.jpg" alt="Screenshot of the redispatch analysis demo" loading="lazy"> -->
+          </div>
+          <div class="body">
+            <p class="kicker">German power grid &middot; 2022 to 2026</p>
+            <h3>Redispatch analysis</h3>
+            <p>German grid redispatch from 2022 to 2026, with cost per MWh down about&nbsp;12&nbsp;% a year (bootstrap range). A grid congestion simulation graded against the exact optimum, and a Power BI model.</p>
+            <ul class="tags" aria-label="Tools used">
+              <li>Bootstrap</li><li>Congestion simulation</li><li>Power BI</li>
+            </ul>
+            <div class="actions">
+              <a class="btn primary" href="https://huggingface.co/spaces/malliksmrity/grid-sim-env" target="_blank" rel="noopener noreferrer">Live demo<span class="sr"> of the redispatch analysis (opens in a new tab)</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 5 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn ghost" href="https://github.com/malliksmrity/redispatch-analysis" target="_blank" rel="noopener noreferrer">Code<span class="sr"> for the redispatch analysis (opens in a new tab)</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal" style="--d:80ms">
+          <div class="shot">
+            <span class="shot-label">Screenshot or recording</span>
+            <!-- To add a screenshot: save it as assets/projects/energiewende.jpg and uncomment the next line.
+            <img src="assets/projects/energiewende.jpg" alt="Screenshot of the Energiewende speech analyzer demo" loading="lazy"> -->
+          </div>
+          <div class="body">
+            <p class="kicker">German NLP &middot; Bundestag</p>
+            <h3>Energiewende in the Bundestag</h3>
+            <p>German-language NLP on 1,161 energy speeches, using LDA, BERTopic, GBERT and spaCy.</p>
+            <ul class="tags" aria-label="Tools used">
+              <li>LDA</li><li>BERTopic</li><li>GBERT</li><li>spaCy</li>
+            </ul>
+            <div class="actions">
+              <a class="btn primary" href="https://huggingface.co/spaces/malliksmrity/energiewende-speech-analyzer" target="_blank" rel="noopener noreferrer">Live demo<span class="sr"> of Energiewende in the Bundestag (opens in a new tab)</span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 5 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn ghost" href="https://github.com/malliksmrity/energiewende-bundestag-nlp" target="_blank" rel="noopener noreferrer">Code<span class="sr"> for Energiewende in the Bundestag (opens in a new tab)</span></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT + SKILLS -->
+    <section id="about" class="container section" aria-labelledby="about-title">
+      <div class="section-head reveal">
+        <h2 id="about-title">About</h2>
+      </div>
+
+      <div class="card about reveal">
+        <p>Mechanical engineer (B.Eng., Savitribai Phule Pune University, 2021 to 2025) and MSc student in AI, Data Science and Digital Business at Gisma University of Applied Sciences, Berlin.</p>
+        <p>Internships at Thermax Ltd and Kirloskar Pneumatic.</p>
+        <p>Co-authored a paper on a rice-straw boiler (IJARSCT, April 2025), presented at RDME-2025.</p>
+        <p>Languages: English, Hindi, German (A2/B1, improving). I report results with baselines and stated limits.</p>
+      </div>
+
+      <h3 class="subhead reveal">Skills</h3>
+      <div class="skills">
+        <div class="card skill-group reveal">
+          <h4>Machine learning</h4>
+          <ul class="chips">
+            <li>Python</li><li>pandas</li><li>scikit-learn</li><li>XGBoost</li><li>TensorFlow</li><li>SHAP</li><li>spaCy</li><li>Hugging Face</li>
+          </ul>
+        </div>
+        <div class="card skill-group reveal" style="--d:60ms">
+          <h4>Data and visualization</h4>
+          <ul class="chips">
+            <li>Power BI</li><li>JavaScript (Chart.js, Three.js)</li>
+          </ul>
+        </div>
+        <div class="card skill-group reveal" style="--d:120ms">
+          <h4>Workflow</h4>
+          <ul class="chips">
+            <li>Git</li><li>GitHub Actions</li><li>Docker</li><li>MLflow</li>
+          </ul>
+        </div>
+        <div class="card skill-group reveal" style="--d:180ms">
+          <h4>Engineering</h4>
+          <ul class="chips">
+            <li>CAD (Fusion 360)</li><li>FEM (ANSYS Workbench)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKATING -->
+    <section id="skating" class="container section" aria-labelledby="skating-title">
+      <div class="section-head reveal">
+        <h2 id="skating-title">Skating</h2>
+        <p>Competitive dance skating is part of my life outside engineering.</p>
+      </div>
+
+      <div class="split">
+        <!--
+          ADD COMPETITIONS HERE.
+          Copy the <li class="t-item"> block below, paste it above the placeholder, and fill in the four parts.
+          Then delete the "placeholder" item.
+
+          <li class="t-item">
+            <span class="t-year">2024</span>
+            <div><h3>Name of competition</h3><p>City, Country &middot; 1st place</p></div>
+          </li>
+        -->
+        <ol class="timeline reveal">
+          <li class="t-item placeholder">
+            <span class="t-year">Year</span>
+            <div><h3>Competition results coming soon</h3><p>Name, place and result will appear here.</p></div>
+          </li>
+        </ol>
+
+        <figure class="photo-card reveal" style="--d:100ms">
+          <img src="assets/img/skating-1.jpg" width="511" height="1600" alt="Smrity on inline skates holding two trophies and wearing a medal, in front of an Indian flag and a dance skate championship banner" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ART -->
+    <section id="art" class="container section" aria-labelledby="art-title">
+      <div class="section-head reveal">
+        <h2 id="art-title">Art</h2>
+        <!-- ART STATEMENT: replace the sentence below with one sentence in your own words, and remove class="pending". -->
+        <p class="pending">Artist statement coming soon.</p>
+      </div>
+
+      <!--
+        ADD PAINTINGS HERE.
+        Copy one <li> below, change the image path, the alt text and the data-caption (title, year, medium).
+      -->
+      <ul class="gallery" aria-label="Art gallery">
+        <li class="reveal">
+          <button class="g-item" type="button" data-caption="">
+            <img src="assets/img/art-1.jpg" width="1932" height="2576" alt="Smrity pointing at a framed landscape painting of a river at sunset, shown at an exhibition" loading="lazy">
+          </button>
+        </li>
+        <li class="reveal" style="--d:80ms">
+          <button class="g-item" type="button" data-caption="">
+            <img src="assets/img/art-2.jpg" width="780" height="1040" alt="Smrity holding a certificate beside framed paintings at an exhibition" loading="lazy">
+          </button>
+        </li>
+        <li class="reveal" style="--d:160ms">
+          <button class="g-item" type="button" data-caption="">
+            <img src="assets/img/art-3.jpg" width="780" height="1040" alt="Smrity holding a painting in front of a wall of colorful paintings" loading="lazy">
+          </button>
+        </li>
+      </ul>
+      <p class="note reveal">Painting titles, years and medium coming soon.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section" aria-labelledby="contact-title">
+      <div class="card contact reveal">
+        <h2 id="contact-title">Contact</h2>
+        <div class="actions">
+          <a class="btn primary" href="mailto:malliksmrity@gmail.com">Email</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/smritymallik" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr"> (opens in a new tab)</span></a>
+          <a class="btn ghost" href="https://github.com/malliksmrity" target="_blank" rel="noopener noreferrer">GitHub<span class="sr"> (opens in a new tab)</span></a>
+          <a class="btn ghost" href="https://huggingface.co/malliksmrity" target="_blank" rel="noopener noreferrer">Hugging Face<span class="sr"> (opens in a new tab)</span></a>
+        </div>
+        <p class="mail">malliksmrity@gmail.com</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>Smrity Mallik &middot; <span id="year">2026</span></p>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Image viewer">
+    <figure>
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <button class="lb-btn lb-close" type="button" aria-label="Close image">&times;</button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Previous image">&#8249;</button>
+    <button class="lb-btn lb-next" type="button" aria-label="Next image">&#8250;</button>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
